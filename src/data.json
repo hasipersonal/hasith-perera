@@ -1,0 +1,433 @@
+{
+  "headerData": {
+    "logoDark": "/images/icon.png",
+    "logoLight": "/images/icon.png"
+  },
+  "heroData": {
+    "title": "I'm<br /><b>Hasith</b> <span><br />Perera...</span>",
+    "subTitle": "<span>Frontend Developer & UI/UX Designer</span>",
+    "ImgLink": "/images/home-banner.png",
+    "phone": "+94 71 41 40 708",
+    "email": "vilochanahasith@gmail.com",
+    "btnText": "Work with me",
+    "socialData": [
+      {
+        "link": "https://dribbble.com/hasithperera",
+        "icon": "dribbble"
+      },
+      {
+        "link": "https://www.linkedin.com/in/hasith-perera-543172200/",
+        "icon": "linkedin"
+      },
+      {
+        "link": "https://www.facebook.com/hasitha.perera.71697",
+        "icon": "facebook"
+      }
+    ]
+  },
+  "aboutData": {
+    "aboutLeft": {
+      "ImgLink": "/images/about-banner.png",
+      "name": "Hasith Perera",
+      "designation": "Frontend Developer & UI/UX Designer",
+      "resumeCv": "/Resume.pdf"
+    },
+    "aboutRight": {
+      "aboutText": "Born in 1997 and based in Sri Lanka, I specialize in UI/UX design and front-end development. I craft engaging on-screen experiences for websites and applications, combining clean design with efficient, responsive code. Guided by creativity and a passion for user-centered design, I strive to push the boundaries of visual expression and front-end performance through the things I love.",
+      "contactInfo": [
+        {
+          "icon": "phone",
+          "data": "+94 71 41 40 708"
+        },
+        {
+          "icon": "person",
+          "data": "Hasith Perera"
+        },
+        {
+          "icon": "envelope",
+          "data": "vilochanahasith@gmail.com"
+        },
+        {
+          "icon": "map",
+          "data": "Sri Lanka"
+        }
+      ],
+      "archivement": [
+        {
+          "number": "3+",
+          "meta": "Years <br /> experience...",
+          "text": "Hello there! My name is <span>Hasith Perera</span>. I am a frontend developer & UI/UX designer, and I'm very passionate and dedicated to my work."
+        },
+        {
+          "number": "20+",
+          "meta": "Clients <br /> Worldwide...",
+          "text": "With 10+ years experience as a professional designer, I have acquired the skills to make your project a success."
+        }
+      ],
+      "note": "“I craft the best for you intuitive designs and pixel-perfect code that speak for themselves.”"
+    }
+  },
+  "experienceData": {
+    "text": "Hello there! My name is Hasith Perera. I am a frontend developer & UI/UX designer, and I'm very passionate and dedicated to my work.",
+    "resumeCv": "/Resume.pdf",
+    "experience": [
+      {
+        "start": "2023",
+        "end": "Present",
+        "title": "FRONTEND DEVELOPER",
+        "subtitle": "Sampath IT Solutions"
+      },
+      {
+        "start": "2022",
+        "end": "2023",
+        "title": "JUNIOR FRONTEND DEVELOPER",
+        "subtitle": "Virtual System Solutions"
+      },
+      {
+        "start": "2023",
+        "end": "Present",
+        "title": "UI/UX DESIGNER",
+        "subtitle": "Freelancer"
+      }
+    ]
+  },
+  "serviceData": [
+    {
+      "title": "Web Design",
+      "heading": "Modern, responsive code",
+      "triger": "One",
+      "imgLink": "/images/specialities-1.jpg",
+      "text": "I bring designs to life using HTML, CSS, JavaScript, and frameworks like Angular or React. I focus on writing clean, maintainable code that works smoothly across all devices and platforms."
+    },
+    {
+      "title": "UI/UX Design",
+      "heading": "Clean, intuitive interface creation",
+      "triger": "Two",
+      "imgLink": "/images/specialities-2.jpg",
+      "text": "I design user-friendly interfaces that are visually balanced, easy to navigate, and built around real user needs. My focus is on delivering delightful digital experiences with consistency and clarity."
+    },
+    {
+      "title": "Prototyping & Wireframing",
+      "heading": "Ideas brought to life visually",
+      "triger": "Three",
+      "imgLink": "/images/specialities-3.jpg",
+      "text": "From low-fidelity wireframes to high-fidelity interactive prototypes, I translate ideas into visual workflows using tools like Figma and Adobe XD, allowing early testing and feedback."
+    },
+    {
+      "title": "Performance & Accessibility",
+      "heading": "Fast and inclusive interfaces",
+      "triger": "Four",
+      "imgLink": "/images/specialities-4.jpg",
+      "text": "I optimize websites and apps for performance by reducing load times, improving code efficiency, and ensuring accessibility compliance so everyone can use the product with ease."
+    }
+  ],
+  "portfolioData": [
+    {
+      "ImgLink": "/images/services-1.jpg",
+      "subTitle": "UI Design",
+      "title": "Logistic & Transport Company - BISELKO",
+      "link": "https://dribbble.com/shots/26043206-Logistic-Transport-Company-UI-UX-Design-BISELKO?utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share",
+      "paragraphList": [
+        {
+          "text": "I'm excited to share the UI/UX design I crafted for BISELKO, a modern logistics and transportation company. This responsive website was designed to provide a seamless user experience while clearly presenting the company's core services — including air, sea, and road freight forwarding."
+        },
+        {
+          "text": "The goal was to create a clean, professional interface that reflects BISELKO’s reliability and efficiency. From intuitive navigation and informative service blocks to a simplified quote request process, every section was thoughtfully designed for clarity and usability"
+        },
+        {
+          "text": "Here’s a modern, responsive UI design I created for BISELKO, a logistics and transport company. The goal was to deliver a clean, user-friendly interface that clearly showcases services like freight forwarding, delivery tracking, and shipment requests.\n\n🟣 Focused on usability\n🟣 Strong brand visuals\n🟣 Smooth, step-by-step delivery process"
+        },
+        {
+          "text": "This project helped me explore the intersection of clarity, function, and strong visual hierarchy within the logistics space. I focused on making the user journey simple and intuitive while aligning with the brand’s identity."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-2.jpg",
+      "subTitle": "UI Design",
+      "title": "Artist Portfolio UI/UX Design – Echo Daft",
+      "link": "https://dribbble.com/shots/26043206-Logistic-Transport-Company-UI-UX-Design-BISELKO?utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share",
+      "paragraphList": [
+        {
+          "text": "This artist portfolio design blends a dark, futuristic aesthetic with sleek visuals, reflecting the energy and vibe of the underground music scene. The design emphasizes a bold yet minimalistic style, using a dark theme complemented by sharp typography and immersive imagery to create a powerful visual presence."
+        },
+        {
+          "text": "Dive into one of our recent projects designed for Echo Daft, a dynamic artist in the underground music scene. We crafted a bold and immersive website to amplify his digital presence and connect with his audience. Our design blends dark, futuristic aesthetics with intuitive navigation, ensuring fans can easily explore his music, book events, and stay updated with his latest releases."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-3.jpg",
+      "subTitle": "Web Design",
+      "title": "Tourism Website Design – Sri Tours Lanka",
+      "link": "https://sritourslanka.com/",
+      "paragraphList": [
+        {
+          "text": "Experience the magic of Sri Lanka through tailor-made private tours, expertly crafted to match your tastes—from cultural heritage to wildlife adventures, beach escapes, and scenic inland journeys."
+        },
+        {
+          "text": "I created a modern, responsive website for Sri Tours Lanka — a travel company specializing in private tours across Sri Lanka. The goal was to deliver a clean and engaging interface that encourages bookings while showcasing the rich experiences Sri Lanka offers."
+        },
+        {
+          "text": "User-Friendly Design: Focused on clear navigation, mobile responsiveness, and visually attractive layouts. Instant Booking via WhatsApp: Integrated fast communication to support real-time tour confirmations.Tour Category Highlights: Wildlife, Cultural, Adventure, and Water Tours — each with dedicated visual sections.Custom Icons & Visual Identity: Built a cohesive visual style aligned with Sri Lanka’s vibrant tourism appeal.Performance Optimized: Fast loading and mobile-first experience, ensuring high usability and satisfaction."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-7.jpg",
+      "subTitle": "Frontend Development",
+      "title": "Synthara Solutions - Frontend Design",
+      "link": "",
+      "paragraphList": [
+        {
+          "text": "Synthara Solutions is a modern, responsive, and visually compelling IT solutions company website developed using React.js. This project showcases a futuristic design language with a clean UI, emphasizing innovation and next-generation digital services."
+        },
+        {
+          "text": "I designed and developed the frontend of this project, ensuring a seamless user experience, pixel-perfect layout, and optimized performance for business conversion goals."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-4.jpg",
+      "subTitle": "UI Design",
+      "title": "SANIRO Products - UI Design",
+      "link": "https://dribbble.com/shots/26043206-Logistic-Transport-Company-UI-UX-Design-BISELKO?utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share",
+      "paragraphList": [
+        {
+          "text": "SANIRO is Sri Lanka's largest steel business, renowned for its extensive range of steel products and services that cater to the construction and manufacturing industries. With a strong commitment to quality and innovation, SANIRO has established itself as a leader in the steel market, providing cutting-edge solutions to meet the diverse needs of its customer."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-5.jpg",
+      "subTitle": "UI Design",
+      "title": "SLICE - Pizza Ordering Web UI",
+      "link": "https://dribbble.com/shots/26043206-Logistic-Transport-Company-UI-UX-Design-BISELKO?utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share",
+      "paragraphList": [
+        {
+          "text": "This is my Exploration for Food Delivery Landing Page. what's about you ? Let me know your Awesome Feedback Don't forget to Like ❤ it :)"
+        },
+        {
+          "text": "At Slice, we combine time-honored pizza-making traditions with innovative flavors and fresh, hand-picked ingredients. From our wood-fired ovens to our custom-made crusts, we are dedicated to serving pizzas that not only satisfy your cravings but also bring a new level of excitement to your taste buds."
+        },
+        {
+          "text": "Let’s check out one of our recent projects with the delicious vibes of Slice Pizza. We designed the website, amplifying digital marketing and boosting the online presence for this modern and innovative pizza brand. Our goal was to create a mouth-watering, user-friendly interface that showcases the unique flavors and artisan craftsmanship behind their pizza creations."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/services-6.jpg",
+      "subTitle": "UI Design",
+      "title": "Time After Time - InCircle'24 - UI Design",
+      "link": "https://dribbble.com/shots/26043206-Logistic-Transport-Company-UI-UX-Design-BISELKO?utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=hasithperera&utm_content=Logistic%20%26%20Transport%20Company%20-%20%20UI%2FUX%20Design%20-%20BISELKO&utm_medium=Social_Share",
+      "paragraphList": [
+        {
+          "text": "Time After Time is an all in one music oriented platform providing a range of services such as event management, audio production, music and brand consultancy, artist management, music publishing and many more...."
+        }
+      ]
+    }
+  ],
+  "blogData": [
+    {
+      "ImgLink": "/images/blog-1.jpg",
+      "date": "05 March, 2025",
+      "delay": "700",
+      "title": "UI/UX Trends in 2025 – Designing for the Future",
+      "paragraphList": [
+        {
+          "text": "The world of UI/UX design is evolving faster than ever. As we move through 2025, digital products must be more than just beautiful — they must be intelligent, inclusive, and emotionally engaging. In this blog, we explore the top UI/UX trends shaping the future of digital experiences this year and beyond."
+        },
+        {
+          "text": "Artificial Intelligence is deeply influencing user interfaces by enabling: Smart content adaptation based on behavior, Real-time UI adjustments for user preferences,Predictive user flows that minimize friction, Today’s users expect interfaces that learn and adapt, offering content and layouts that feel personally curated."
+        },
+        {
+          "text": "Designers are increasingly using: 3D assets and animations to capture attention, Futuristic and isometric illustrations to convey innovation, AR/VR-ready components in app interfaces, These elements enhance storytelling and create a strong first impression, especially in tech and SaaS applications."
+        },
+        {
+          "text": "The future of UI/UX is immersive, intelligent, and inclusive. As a designer and developer, staying ahead of trends allows you to deliver experiences that are not just modern — but also meaningful.By integrating these design trends into your workflow, you’ll be ready to create interfaces that not only look great but feel great to use."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-2.jpg",
+      "date": "10 July, 2025",
+      "delay": "800",
+      "title": "From Figma to Functional – My UI to React Workflow",
+      "paragraphList": [
+        {
+          "text": "The process of transforming a static UI design into a fully functional website or web application is both an art and a science. One of the most effective workflows in modern frontend development is converting Figma designs into React.js components. This blog outlines the step-by-step process that developers and designers follow to ensure design fidelity, responsiveness, and performance in real-world React projects."
+        },
+        {
+          "text": "Combining Figma for design and React.js for frontend development provides: Seamless collaboration between designers and developers, Pixel-perfect implementation using reusable components, Efficient development cycle with live preview and version control, Design system integration using Figma components and tokens, This combination is now industry-standard for building modern UIs."
+        },
+        {
+          "text": "The Figma-to-React workflow bridges the gap between design vision and functional UI. With careful planning, reusable components, and responsive techniques, you can ensure that the final product remains faithful to the original design while delivering excellent performance and user experience. Whether you're working solo or collaborating with a team, mastering this workflow can significantly improve your productivity and output quality."
+        }
+      ]
+    },
+    {
+      "ImgLink": "/images/blog-3.jpg",
+      "date": "10 January, 2025",
+      "delay": "900",
+      "title": "Why Every Business Needs a High-Performance Website in 2025",
+      "paragraphList": [
+        {
+          "text": "In 2025, your website is more than just a digital brochure — it’s your first impression, lead generator, brand voice, and 24/7 sales tool. With customers expecting instant access, seamless experiences, and professional design, a high-performance website is now essential for any business, regardless of size or industry. This blog explores why investing in a fast, responsive, and modern website is no longer optional — it’s a competitive advantage."
+        },
+        {
+          "text": "Studies show that users form an opinion about your website in less than 0.05 seconds. That snap judgment often determines whether they trust your business. A high-performance website offers: ✅ Clean design and layout ✅ Fast loading time ✅ Clear branding and messaging ✅ Mobile responsiveness. If your site looks outdated or loads slowly, users will assume the same about your services."
+        },
+        {
+          "text": "In 2025, a business without a high-performance website is like a store without a sign — people won’t trust it, and many won’t even find it. Whether you're just starting out or looking to modernize your online presence, investing in a fast, mobile-optimized, SEO-friendly website is one of the smartest decisions you can make. It’s not just about being online. It’s about winning online."
+        }
+      ]
+    }
+  ],
+  "sliderData": {
+    "testimonialInfo": {
+      "useFor": "testimonial",
+      "settings": {
+        "infinite": true,
+        "speed": 1500,
+        "autoplay": true,
+        "autoplaySpeed": 5000,
+        "slidesToShow": 2,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/avatar-1.jpg",
+          "name": "Pavarindu Sahansith",
+          "designation": "Visiting Lecturer, Advanced Technological Institute",
+          "text": "He is the most intelligent designer I have ever seen. Each time I ask for an artwork, it is something fresh."
+        },
+        {
+          "imgLink": "/images/avatar-2.jpg",
+          "name": "Charith Priyankara",
+          "designation": "Tech Lead, Sampath IT Solutions",
+          "text": "Working with Hasith has been a truly impressive experience. His attention to detail in UI/UX design and front-end development is exceptional."
+        },
+        {
+          "imgLink": "/images/avatar-5.jpg",
+          "name": "Adeesha Ovitigala",
+          "designation": "Head of Design, Thrive Solutions (PVT) Ltd.",
+          "text": "Hasith has been working with Thrive for several years and consistently delivers high-quality, precise design work. He’s contributed to multiple projects with creativity, attention to detail and professionalism. A true asset to any design team."
+        },
+        {
+          "imgLink": "/images/avatar-4.jpg",
+          "name": "Primalshi Rathnayake",
+          "designation": "Chief Executive Officer, Craft 51",
+          "text": "Perfect & nice work. Thank you so much. It's worth more than what we paid. And aslo very friendly service."
+        },
+        {
+          "imgLink": "/images/avatar-3.jpg",
+          "name": "Ahinsa Thilakarathne",
+          "designation": "Sri Tours Lanka",
+          "text": "I recently got my Sri Tours Lanka website designed by this amazing team. From start to finish, they were professional and paid great attention to detail."
+        }
+      ]
+    },
+    "brandInfo": {
+      "useFor": "brand",
+      "settings": {
+        "infinite": true,
+        "speed": 1000,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "slidesToShow": 5,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 4
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 3
+            }
+          }
+        ]
+      },
+      "info": [
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        },
+        {
+          "imgLink": "/images/brand-3.png"
+        },
+        {
+          "imgLink": "/images/brand-4.png"
+        },
+        {
+          "imgLink": "/images/brand-5.png"
+        },
+        {
+          "imgLink": "/images/brand-1.png"
+        },
+        {
+          "imgLink": "/images/brand-2.png"
+        }
+      ]
+    }
+  },
+  "contactData": {
+    "contactInfo": [
+      {
+        "icon": "chat-left-dots-fill",
+        "title": "Chat to us",
+        "text": "Our friendly team is there to help. ",
+        "emailLink": "info@hasithperera.com"
+      },
+      {
+        "icon": "compass",
+        "title": "Visit us ",
+        "text": "Colombo, Sri Lanka"
+      },
+      {
+        "icon": "phone",
+        "title": "Call us",
+        "text": "Mon-Fri from 8am to 5pm. +94 71 41 40 708"
+      }
+    ],
+    "contactForm": {
+      "title": "Got Ideas? We have got the skills. Lets team up.",
+      "text": "Tell us more about yourself and what you are got in mind."
+    }
+  },
+  "footerData": {
+    "ImgLink": "/images/icon.png",
+    "name": "Hasith Perera"
+  },
+  "socialData": [
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/hasith-perera-543172200/"
+    },
+    {
+      "icon": "dribbble",
+      "link": "https://dribbble.com/hasithperera"
+    },
+    {
+      "icon": "facebook",
+      "link": "https://www.facebook.com/hasitha.perera.71697"
+    }
+  ]
+}
