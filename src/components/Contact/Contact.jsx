@@ -86,7 +86,7 @@ const Contact = ({ data }) => {
               <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                 <div className="ratio ratio-21x9">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62999.5206964189!2d79.87989330752542!3d6.909881614089015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2595d7a9d852d%3A0x82943f76793efceb!2sLakshmans%20Building%2C%20321%20Galle%20-%20Colombo%20Rd%2C%20Colombo%2000300!5e1!3m2!1sen!2slk!4v1753623805765!5m2!1sen!2slk"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75171.49957944296!2d79.81500582823428!3d6.921922084887003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e1!3m2!1sen!2slk!4v1753717742369!5m2!1sen!2slk"
                     allowFullScreen=""
                   />
                 </div>
