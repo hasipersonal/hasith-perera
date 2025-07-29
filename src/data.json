@@ -33,7 +33,7 @@
       "resumeCv": "/Resume.pdf"
     },
     "aboutRight": {
-      "aboutText": "Born in 1997 and based in Sri Lanka, I specialize in UI/UX design and front-end development. I craft engaging on-screen experiences for websites and applications, combining clean design with efficient, responsive code. Guided by creativity and a passion for user-centered design, I strive to push the boundaries of visual expression and front-end performance through the things I love.",
+      "aboutText": "Based in Sri Lanka, I specialize in UI/UX design and front-end development. I craft engaging on-screen experiences for websites and applications, combining clean design with efficient, responsive code. Guided by creativity and a passion for user-centered design, I strive to push the boundaries of visual expression and front-end performance through the things I love.",
       "contactInfo": [
         {
           "icon": "phone",
@@ -56,7 +56,7 @@
         {
           "number": "3+",
           "meta": "Years <br /> experience...",
-          "text": "Hello there! My name is <span>Hasith Perera</span>. I am a frontend developer & UI/UX designer, and I'm very passionate and dedicated to my work."
+          "text": "Hello there! I'm a <span>frontend developer & UI/UX designer</span>, and I'm very passionate and dedicated to my work."
         },
         {
           "number": "20+",
@@ -68,7 +68,7 @@
     }
   },
   "experienceData": {
-    "text": "Hello there! My name is Hasith Perera. I am a frontend developer & UI/UX designer, and I'm very passionate and dedicated to my work.",
+    "text": "With hands on experience in UI/UX design and front-end development, I’ve worked on diverse projects that combine visual aesthetics with functional code. Each role has helped me grow as a designer and developer committed to creating meaningful digital experiences.",
     "resumeCv": "/Resume.pdf",
     "experience": [
       {
@@ -394,7 +394,7 @@
         "icon": "chat-left-dots-fill",
         "title": "Chat to us",
         "text": "Our friendly team is there to help. ",
-        "emailLink": "info@hasithperera.com"
+        "emailLink": "vilochanahasith@gmail.com"
       },
       {
         "icon": "compass",
@@ -404,7 +404,7 @@
       {
         "icon": "phone",
         "title": "Call us",
-        "text": "Mon-Fri from 8am to 5pm. +94 71 41 40 708"
+        "text": "Mon-Sun from 8am to 5pm. +94 71 41 40 708"
       }
     ],
     "contactForm": {

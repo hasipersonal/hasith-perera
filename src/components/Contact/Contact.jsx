@@ -1,52 +1,61 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import { Icon } from "@iconify/react";
 import SectionHeading from "../SectionHeading/SectionHeading";
-import { useState } from "react";
-
+import { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = ({ data }) => {
   const { contactInfo, contactForm } = data;
 
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    title: "",
+    message: "",
   });
 
-  // Handler for input field changes
-  const handleInputChange = event => {
+  const formRef = useRef();
+
+  const handleInputChange = (event) => {
     const { name, value } = event.target;
-    setFormData(prevFormData => ({
+    setFormData((prevFormData) => ({
       ...prevFormData,
       [name]: value,
     }));
   };
 
-  const onSubmit = async (event) => {
+  const onSubmit = (event) => {
     event.preventDefault();
     setLoading(true);
-    const formData = new FormData(event.target);
-    formData.append("access_key", "fcc74231-656a-425b-a54f-aff38354fadb");
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
-
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
-
-    if (res.success) {
-      setFormData({ name: "", email: "", subject: "", message: "" });
-      setLoading(false)
-    }
+    emailjs
+      .sendForm(
+        "service_1txwhx6", // service ID
+        "template_20cr977", // template ID
+        formRef.current,
+        "ZxQ5m4TzSHvbo9_Q_" // EmailJS public key
+      )
+      .then(
+        (result) => {
+          console.log("Email successfully sent:", result.text);
+          setFormData({
+            name: "",
+            email: "",
+            title: "",
+            message: "",
+          });
+          alert("Message sent successfully!");
+          setLoading(false);
+        },
+        (error) => {
+          console.error("Error sending email:", error.text);
+          alert("Something went wrong. Please try again.");
+          setLoading(false);
+        }
+      );
   };
+
   return (
     <section
       id="contact"
@@ -60,7 +69,12 @@ const Contact = ({ data }) => {
             <div className="contact-info">
               <ul>
                 {contactInfo.map((element, index) => (
-                  <li key={index} data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                  <li
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
                     <div className="icon">
                       <Icon icon={`bi:${element.icon}`} />
                     </div>
@@ -69,39 +83,50 @@ const Contact = ({ data }) => {
                       <p>
                         {element.text}
                         <span>
-                          {element.emailLink &&
+                          {element.emailLink && (
                             <a
                               className="text-reset"
-                              href="mailto:info@domainname.com"
+                              href={`mailto:${element.emailLink}`}
                             >
                               {element.emailLink}
                             </a>
-                          }
+                          )}
                         </span>
                       </p>
                     </div>
                   </li>
                 ))}
               </ul>
-              <div className="google-map" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+              <div
+                className="google-map"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="500"
+              >
                 <div className="ratio ratio-21x9">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75171.49957944296!2d79.81500582823428!3d6.921922084887003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e1!3m2!1sen!2slk!4v1753717742369!5m2!1sen!2slk"
                     allowFullScreen=""
+                    loading="lazy"
+                    title="Google Map"
                   />
                 </div>
               </div>
             </div>
           </div>
+
           <div className="col-lg-7 ps-xl-5">
-            <div className="contact-form bg-g" data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000">
+            <div
+              className="contact-form bg-g"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-delay="1000"
+            >
               <div className="contact-head">
                 <h4>{contactForm.title}</h4>
                 <p>{contactForm.text}</p>
               </div>
-              <form onSubmit={onSubmit} id="contact-form" method="POST">
-                <input type="hidden" name="from_name" value="Lilon Macwan" />
-                <input type="hidden" name="replyto" value="custom@gmail.com" />
+              <form ref={formRef} onSubmit={onSubmit}>
                 <div className="row gx-3 gy-4">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -137,13 +162,13 @@ const Contact = ({ data }) => {
                     <div className="form-group">
                       <label className="form-label">Subject</label>
                       <input
-                        name="subject"
-                        id="subject"
+                        name="title"
+                        id="title"
                         placeholder="Subject *"
                         className="form-control"
                         type="text"
                         onChange={handleInputChange}
-                        value={formData.subject}
+                        value={formData.title}
                         required
                       />
                     </div>
@@ -165,11 +190,7 @@ const Contact = ({ data }) => {
                   </div>
                   <div className="col-md-12">
                     <div className="send">
-                      <button
-                        className="px-btn dark w-100"
-                        type="submit"
-                        value="Send"
-                      >
+                      <button className="px-btn dark w-100" type="submit">
                         {loading ? "Sending..." : "Send Message"}
                       </button>
                     </div>
@@ -181,13 +202,11 @@ const Contact = ({ data }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 Contact.propTypes = {
-  data: PropTypes.object
-}
-
-
+  data: PropTypes.object,
+};
 
 export default Contact;
