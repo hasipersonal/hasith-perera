@@ -80,6 +80,7 @@ export default function Projects() {
                     src={project.cover}
                     alt={project.title}
                     loading="lazy"
+                    decoding='async'
                     className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                   />
                 )}
