@@ -20,7 +20,7 @@ export const projects: Project[] = [
     slug: 'srilankan-tours-website',
     title: 'Tourism Company – Sri Tours Lanka',
     category: 'Web Design',
-    cover: '/assets/projects/travel.jpg',
+    cover: '/assets/projects/travel.png',
     description: 'A clean, engaging booking platform for Sri Tours Lanka, engineered to showcase rich travel experiences across Sri Lanka and drive private tour bookings.',
     type: "image"
   },
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     slug: 'ecodaft',
     title: 'Artist Portfolio UI/UX Design – Echo Daft',
     category: 'UI / UX Design',
-    cover: '/assets/projects/Eco Daft.webp',
+    cover: '/assets/projects/Eco Daft.png',
     description: 'A dark, futuristic artist portfolio capturing the energy of the underground music scene through bold typography, immersive imagery, and a sleek, minimalist style.',
     type: "image"
   },
@@ -62,7 +62,7 @@ export const projects: Project[] = [
     slug: 'time-after-time',
     title: 'Time After Time - InCircle 24',
     category: 'UI / UX Design',
-    cover: '/assets/projects/timeafter.webp',
+    cover: '/assets/projects/timeafter.png',
     description: 'An all-in-one music platform providing comprehensive ecosystem solutions, from event management and audio production to artist management, publishing, and brand consultancy.',
     type: "image"
   },

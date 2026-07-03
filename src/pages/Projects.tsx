@@ -63,7 +63,6 @@ export default function Projects() {
               data-cursor="grow"
               className="project-page-card group block overflow-hidden rounded-3xl border border-mist bg-cloud"
             >
-              {/* Media Container */}
               <div className="aspect-[4/5] overflow-hidden bg-cloud relative">
                 {project.type === 'video' ? (
                   <video
@@ -86,7 +85,6 @@ export default function Projects() {
                 )}
               </div>
 
-              {/* Content Details */}
               <div className="p-5">
                 <div className="flex items-center justify-between gap-3">
                   <div>
