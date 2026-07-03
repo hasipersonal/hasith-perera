@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from './lib/ThemeContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -43,6 +44,7 @@ export default function App() {
       </main>
       <Footer />
       <ThemeToggle />
+      <Analytics />
     </ThemeProvider>
   )
 }
