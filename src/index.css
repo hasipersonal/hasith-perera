@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --paper: #ffffff;
+  --ink: #101012;
+  --ink-soft: #55555c;
+  --cloud: #f4f4f6;
+  --mist: #e7e7ec;
+  --noir: #0b0b0d;
+}
+
+.dark {
+  --paper: #0b0b0d;
+  --ink: #f5f5f7;
+  --ink-soft: #a3a3ac;
+  --cloud: #17171a;
+  --mist: #26262b;
+  --noir: #f5f5f7;
+}
+
+@theme {
+  --font-display: "Anton", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-cloud: var(--cloud);
+  --color-mist: var(--mist);
+  /* --color-accent: #5b4dfb; */
+  --color-accent: #A1CCA6;
+  --color-accent-soft: #eeecff;
+  --color-noir: var(--noir);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-body antialiased transition-colors duration-500;
+  }
+
+  ::selection {
+    @apply bg-accent text-white;
+  }
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1180px] px-6 md:px-10;
+  }
+
+  .h-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+    line-height: 0.92;
+    text-transform: uppercase;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-semibold tracking-[0.22em] uppercase text-ink-soft;
+  }
+
+  .btn-pill {
+    @apply inline-flex items-center justify-center rounded-full bg-ink text-paper px-6 py-3 text-sm font-semibold transition-transform duration-300 hover:scale-[1.03] hover:bg-accent hover:text-white;
+  }
+
+  .card {
+    @apply rounded-3xl bg-cloud border border-mist;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
