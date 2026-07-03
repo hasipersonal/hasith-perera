@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { ThemeProvider } from './lib/ThemeContext'
 import Navbar from './components/Navbar'
@@ -13,6 +14,18 @@ import Blogs from './pages/Blogs'
 import Contact from './pages/Contact'
 
 export default function App() {
+  useEffect(() => {
+    const handleContextMenu = (e: MouseEvent) => {
+      e.preventDefault()
+    }
+
+    document.addEventListener('contextmenu', handleContextMenu)
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu)
+    }
+  }, [])
+
   return (
     <ThemeProvider>
       <ScrollToTop />
