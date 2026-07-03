@@ -59,7 +59,7 @@ function TestimonialCard({ name, role, quote, avatar }: (typeof testimonials)[nu
           <Star key={i} size={14} fill="currentColor" strokeWidth={0} />
         ))}
       </div>
-      <p className="text-sm leading-relaxed text-ink-soft">&ldquo;{quote}&rdquo;</p>
+      <p className="text-sm leading-relaxed text-ink-soft">{quote}</p>
       <div className="mt-5 flex items-center gap-3">
         <img src={avatar} alt={name} className="h-9 w-9 rounded-full object-cover" />
         <div>

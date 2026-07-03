@@ -20,6 +20,13 @@ export const testimonials = [
       'He is the most intelligent designer I have ever seen. Each time I ask for an artwork, it is something fresh.',
     avatar: '/assets/testimonials/avatar-2.png',
   },
+  {
+    name: 'Primalshi Rathnayake',
+    role: 'CEO, Craft 51 (PVT) Ltd.',
+    quote:
+      'Perfect & nice work. Its worth more than what we paid. And also very friendly service',
+    avatar: '/assets/testimonials/avatar-4.png',
+  },
 ]
 
 export const stats = [
