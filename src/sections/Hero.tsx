@@ -87,8 +87,9 @@ export default function Hero() {
         >
           <div className="overflow-hidden rounded-[2rem] border border-mist bg-cloud shadow-2xl">
             <img
-              src="/assets/hero-image.png"
+              src="/assets/hero-image.webp"
               alt="Hasith Perera, ui/ux designer"
+              fetchPriority="high"
               className="aspect-[4/5] w-full object-cover"
             />
           </div>

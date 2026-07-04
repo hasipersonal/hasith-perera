@@ -70,8 +70,10 @@ export default function Services() {
         <div ref={imgRef} className="mx-auto w-full max-w-md [transform-style:preserve-3d] md:mt-8">
           <div className="overflow-hidden rounded-[2rem] border border-mist shadow-2xl">
             <img
-              src="/assets/service-image.png"
+              src="/assets/service-image.webp"
               alt="Designer's creative desk setup"
+              loading="lazy"
+              decoding="async"
               className="aspect-[4/5] w-full object-cover"
             />
           </div>

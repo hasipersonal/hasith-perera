@@ -2,6 +2,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { projects } from '../data/projects'
 import { useScrollReveal } from '../lib/useScrollReveal'
+import LazyVideo from '../components/LazyVideo'
 
 export default function FeaturedProjects() {
   const ref = useScrollReveal('.project-card', { y: 50, stagger: 0.12 })
@@ -28,13 +29,8 @@ export default function FeaturedProjects() {
           >
             <div className="aspect-[4/5] overflow-hidden bg-cloud relative">
               {project.type === 'video' ? (
-                <video
+                <LazyVideo
                   src={project.cover}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls={false}
                   className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                   aria-label={`Video preview of ${project.title}`}
                 />

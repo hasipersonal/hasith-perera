@@ -4,28 +4,28 @@ export const testimonials = [
     role: 'Head of Design, Thrive Solutions (PVT) Ltd.',
     quote:
       'Hasith consistently delivers high-quality, precise design work. Combining creativity with deep attention to detail, he is a consummate professional and a true asset to any team.',
-    avatar: '/assets/testimonials/avatar-5.png',
+    avatar: '/assets/testimonials/avatar-5.webp',
   },
   {
     name: 'Charith Priyankara',
     role: 'Tech Lead, Sampath IT Solutions',
     quote:
       'Working with Hasith has been a truly impressive experience. His attention to detail in UI/UX design and front-end development is exceptional.',
-    avatar: '/assets/testimonials/avatar-1.png',
+    avatar: '/assets/testimonials/avatar-1.webp',
   },
   {
     name: 'Pavarindu Sahansith',
     role: 'Lecturer, Tutor & Content Creator SLIATE',
     quote:
       'He is the most intelligent designer I have ever seen. Each time I ask for an artwork, it is something fresh.',
-    avatar: '/assets/testimonials/avatar-2.png',
+    avatar: '/assets/testimonials/avatar-2.webp',
   },
   {
     name: 'Primalshi Rathnayake',
     role: 'CEO, Craft 51 (PVT) Ltd.',
     quote:
       'Perfect & nice work. Its worth more than what we paid. And also very friendly service',
-    avatar: '/assets/testimonials/avatar-4.png',
+    avatar: '/assets/testimonials/avatar-4.webp',
   },
 ]
 

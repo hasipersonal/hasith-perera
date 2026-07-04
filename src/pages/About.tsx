@@ -56,8 +56,10 @@ export default function About() {
           </div>
           <div className="overflow-hidden rounded-[2rem] border border-mist shadow-2xl">
             <img
-              src="/assets/hero-image.png"
+              src="/assets/hero-image.webp"
               alt="Hasith Perera at work"
+              loading="lazy"
+              decoding="async"
               className="aspect-[4/5] w-full object-cover"
             />
           </div>

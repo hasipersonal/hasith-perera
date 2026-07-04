@@ -61,7 +61,7 @@ function TestimonialCard({ name, role, quote, avatar }: (typeof testimonials)[nu
       </div>
       <p className="text-sm leading-relaxed text-ink-soft">{quote}</p>
       <div className="mt-5 flex items-center gap-3">
-        <img src={avatar} alt={name} className="h-9 w-9 rounded-full object-cover" />
+        <img src={avatar} alt={name} loading="lazy" decoding="async" className="h-9 w-9 rounded-full object-cover" />
         <div>
           <p className="text-sm font-semibold">{name}</p>
           <p className="text-xs text-ink-soft">{role}</p>

@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { useGSAP } from '../lib/useGSAP'
 import { projects } from '../data/projects'
 import CTASection from '../sections/CTASection'
+import LazyVideo from '../components/LazyVideo'
 
 export default function Projects() {
   const [filter, setFilter] = useState('All')
@@ -65,13 +66,8 @@ export default function Projects() {
             >
               <div className="aspect-[4/5] overflow-hidden bg-cloud relative">
                 {project.type === 'video' ? (
-                  <video
+                  <LazyVideo
                     src={project.cover}
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    controls={false}
                     className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     aria-label={`Video showcase for ${project.title}`}
                   />

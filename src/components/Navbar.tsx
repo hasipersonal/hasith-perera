@@ -36,7 +36,7 @@ export default function Navbar() {
         </NavLink> */}
         <NavLink to="/" className="flex items-center gap-2 rounded-full py-1 pl-1 pr-3" data-cursor="grow">
           <img
-            src="/assets/icon.png" // Replace with your actual image path (e.g., logo.png or avatar.jpg)
+            src="/assets/icon.webp"
             alt="Hasith Perera Logo"
             className="h-8 w-8 rounded-full object-cover bg-cloud border border-mist flex-none"
           />
